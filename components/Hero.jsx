@@ -3,6 +3,7 @@
 import Image from "next/image";
 import {Link as ScrollLink} from "react-scroll";
 import { HiArrowDown } from "react-icons/hi";
+import hero from '@/public/me2.jpg';
 
 const Hero = () => {
   return (
@@ -10,7 +11,7 @@ const Hero = () => {
       <div className="flex flex-col text-center items-center justify-center animate-fadeIn animation-delay-2 my-10 py-16 sm:py-32 md:py-48 md:flex-row md:space-x-4 md:text-left">
         <div className="md:mt-2 md:w-1/2">
           <Image
-            src="/me2.jpg"
+            src={hero}
             alt="Vijay Kacha"
             height={300}
             width={300}
