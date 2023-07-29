@@ -36,9 +36,7 @@ const About = () => {
             </p>
             <br />
             <p>
-              I graduated from Jaipur University in 2019
-              with an MCA degree and have been working in the
-              field ever since.
+            I graduated with an MCA degree in 2019 and have been working in the field ever since. However, I have been working with React.js enthusiastically for the past year.
             </p>
             <br />
             <p>

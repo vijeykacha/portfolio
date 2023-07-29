@@ -78,9 +78,9 @@ const Navbar = () => {
                   className="bg-slate-100 p-2 rounded-xl"
                 >
                   {currentTheme === "dark" ? (
-                    <RiSunLine size={25} color="black" />
+                    <RiSunLine size={25} className="text-slate-900" />
                   ) : (
-                    <RiMoonFill size={25} />
+                    <RiMoonFill size={25} className="text-slate-900" />
                   )}
                 </button>
               </div>
