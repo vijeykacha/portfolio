@@ -63,7 +63,7 @@ const Navbar = () => {
                       key={index}
                       to={item.page}
                       className={
-                        "block lg:inline-block text-neutral-900  hover:text-neutral-500 dark:text-neutral-100"
+                        "block cursor-pointer lg:inline-block text-neutral-900  hover:text-neutral-500 dark:text-neutral-100"
                       }
                       onClick={() => setNavbar(!navbar)}
                     >
