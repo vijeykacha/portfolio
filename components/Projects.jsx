@@ -7,7 +7,7 @@ const projects = [
   {
     name: "Moscow Beauty",
     description:
-      "Created a beautiful website for Moscow Beauty, using Next.js and Tailwind CSS to showcase their services and offerings online.",
+      "Working on a beautiful website for Moscow Beauty, using Next.js and Tailwind CSS to showcase their services and offerings online.",
     image: "/moscowbeauty.png",
     github: "https://github.com/vijeykacha/moscowbeauty",
     link: "https://moscowbeauty.vercel.app/",

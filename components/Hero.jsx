@@ -3,7 +3,7 @@
 import Image from "next/image";
 import {Link as ScrollLink} from "react-scroll";
 import { HiArrowDown } from "react-icons/hi";
-import hero from '@/public/hero.jpeg';
+import hero from '@/public/me.jpg';
 
 const Hero = () => {
   return (
@@ -16,7 +16,7 @@ const Hero = () => {
             height={300}
             width={300}
             quality={100}
-            className="rounded-full shadow-2xl"
+            className="rounded-full shadow-2xl w-80 h-80"
           />
         </div>
         <div className="md:mt-2 md:w-3/5">
