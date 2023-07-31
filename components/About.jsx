@@ -53,8 +53,7 @@ const About = () => {
               </span>{" "}
               and that is what I strive to do, I am indulging myself from last one year for
               technology and a desire to always push the limits of what is
-              possible. I am excited to see where my career takes me and am
-              always open to new opportunities. 🙂
+              possible. I am excited to see where my career takes me. 🙂
             </p>
           </div>
           <div className="text-center md:w-1/2 md:text-left">
