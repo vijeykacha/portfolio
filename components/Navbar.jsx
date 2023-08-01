@@ -35,7 +35,7 @@ const Navbar = () => {
           <div>
             <div className="flex items-center justify-between py-3 md:py-5 md:block">
               <ScrollLink to="home">
-                <div className="container flex items-center space-x-2">
+                <div className="container cursor-pointer flex items-center space-x-2">
                   <h2 className="text-2xl font-bold">Vijay Kacha</h2>
                 </div>
               </ScrollLink>
@@ -65,6 +65,11 @@ const Navbar = () => {
                       className={
                         "block cursor-pointer lg:inline-block text-neutral-900  hover:text-neutral-500 dark:text-neutral-100"
                       }
+                      activeClass="active"
+                      spy={true}
+                      smooth={true}
+                      offset={-100}
+                      duration={500}
                       onClick={() => setNavbar(!navbar)}
                     >
                       {item.label}
@@ -77,7 +82,7 @@ const Navbar = () => {
                   }
                   className="bg-slate-100 p-2 rounded-xl"
                 >
-                  {currentTheme === "dark" ? (
+                  { currentTheme && currentTheme === "dark" ? (
                     <RiSunLine size={25} className="text-slate-900" />
                   ) : (
                     <RiMoonFill size={25} className="text-slate-900" />
